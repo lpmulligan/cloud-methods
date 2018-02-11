@@ -1,4 +1,4 @@
-dist: wheezy
+dist: trusty
 sudo: off
 addons:
   apt:
@@ -24,7 +24,7 @@ env:
 
 install: 
   - go get -u -v github.com/spf13/hugo
-  - echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ wheezy main" | sudo tee /etc/apt/sources.list.d/azure-cli.list
+  - echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ trusty main" | sudo tee /etc/apt/sources.list.d/azure-cli.list
   - sudo apt-key adv --keyserver packages.microsoft.com --recv-keys 417A0893
   - sudo sh -c 'echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ trusty main" > /etc/apt/sources.list.d/dotnetdev.list' 
   - sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 417A0893
@@ -33,7 +33,7 @@ install:
   - curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
   - sudo cp ./microsoft.gpg /etc/apt/trusted.gpg.d/
   - sudo apt-get update
-  - sudo apt-get install -y apt-transport-https azcopy azure-cli dotnet-sdk-2.0.0
+  - sudo apt-get install -y apt-transport-https azcopy azure-cli
 
 # Build the website
 script:
