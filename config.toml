@@ -60,13 +60,13 @@ paginate = 10
     gravatarHash = "MD5 hash of your Gravatar email address"
 
     # Sidebar social links, these must be full URLs.
-    github = "lpmulligan"
+    github = "https://github.com/lpmulligan/"
     bitbucket = ""
     stackOverflow = ""
-    linkedin = "lpmulligan"
+    linkedin = "https://www.linkedin.com/in/lpmulligan/"
     googleplus = ""
     facebook = ""
-    twitter = "lpmulligan"
+    twitter = "https://twitter.com/lpmulligan"
     youtube = ""
 
     # Other social-like sidebar links
