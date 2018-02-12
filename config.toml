@@ -1,7 +1,7 @@
 baseurl = "http://www.cloud-methods.com/"
 title = "Cloud Methods"
 languageCode = "en-us"
-disqusShortname = "your_disqus_shortname" # Optional, enable Disqus integration
+#disqusShortname = "your_disqus_shortname" # Optional, enable Disqus integration
 MetaDataFormat = "toml"
 theme = "hyde-x"
 paginate = 10
@@ -60,13 +60,13 @@ paginate = 10
     gravatarHash = "MD5 hash of your Gravatar email address"
 
     # Sidebar social links, these must be full URLs.
-    github = ""
+    github = "lpmulligan"
     bitbucket = ""
     stackOverflow = ""
-    linkedin = ""
+    linkedin = "lpmulligan"
     googleplus = ""
     facebook = ""
-    twitter = ""
+    twitter = "lpmulligan"
     youtube = ""
 
     # Other social-like sidebar links
