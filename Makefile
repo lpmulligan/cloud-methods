@@ -13,7 +13,7 @@ install:
 build: install
 	rm -rf public
 	mkdir themes
-	git clone https://github.com/zyro/hyde-x.git themes/hyde-x
+	git clone https://github.com/digitalcraftsman/hugo-minimalist-theme.git themes/hugo-minimalist-theme
 	hugo
 
 deploy: build
