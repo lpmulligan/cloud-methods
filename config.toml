@@ -16,10 +16,10 @@ theme = "hugo-minimalist-theme"
     site_description = "Microsoft Azure, Kubernetes, DevOps, and other cool stuff"
     location = "Chicago, IL, USA"
     # Link custom assets relative to /static
-    avatar = "img/LPM-Headshot-South_Park_Avatar.jpeg"
+    avatar = "img/cloud-305461_160.png"
     header_background = "img/scattered-stratus.jpg"
     header_title = "Cloud Methods"
-    copyright = "Powered by [Hugo](http://gohugo.io)."
+    copyright = "Lawrence Mulligan"
     custom_css = []
     custom_js  = []
 

@@ -4,3 +4,9 @@ date: 2018-02-12T13:14:39-06:00
 ---
 
 # Hello World
+
+```html
+<li><a href="//twitter.com/{{.}}" class="icon-twitter" target="_blank" title="Twitter"></a></li>
+```
+
+## Test Post
