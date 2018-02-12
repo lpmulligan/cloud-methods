@@ -17,6 +17,6 @@ build: install
 	hugo
 
 deploy: build
-	azcopy --source \$$SOURCE_DIR --destination \$$DESTINATION_PATH --dest-key \$$AZURE_STORAGE_ACCESS_KEY --recursive --quiet --set-content-type
-	az login --service-principal -u \$$AZURE_SERVICE_PRINCIPAL_APP_ID --password \$$AZURE_SERVICE_PRINCIPAL_APP_PASSWORD --tenant \$$AZURE_SERVICE_PRINCIPAL_TENANT
-	az cdn endpoint purge -g \$$CDN_RESOURCE_GROUP -n \$$CDN_ENDPOINT_NAME --profile-name \$$CDN_PROFILE --content-paths "/*"
+	azcopy --source $$SOURCE_DIR --destination $$DESTINATION_PATH --dest-key $$AZURE_STORAGE_ACCESS_KEY --recursive --quiet --set-content-type
+	az login --service-principal -u $$AZURE_SERVICE_PRINCIPAL_APP_ID --password $$AZURE_SERVICE_PRINCIPAL_APP_PASSWORD --tenant $$AZURE_SERVICE_PRINCIPAL_TENANT
+	az cdn endpoint purge -g $$CDN_RESOURCE_GROUP -n $$CDN_ENDPOINT_NAME --profile-name $$CDN_PROFILE --content-paths "/*"
