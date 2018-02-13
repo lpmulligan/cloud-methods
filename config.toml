@@ -1,7 +1,7 @@
 baseurl = "http://www.cloud-methods.com/"
 title = "Cloud Methods"
 languageCode = "en-us"
-disqusShortname = "your_disqus_shortname" # Optional, enable Disqus integration
+#disqusShortname = "your_disqus_shortname" # Optional, enable Disqus integration
 MetaDataFormat = "toml"
 theme = "hyde-x"
 paginate = 10
@@ -28,7 +28,7 @@ paginate = 10
     truncate = true
 
     # Used when a given page doesn't set its own.
-    defaultDescription = "Your default page description"
+    defaultDescription = "Cloud, Azure, Kubernetes, and DevOps"
     defaultKeywords = "your,default,page,keywords"
 
     # Hide estimated reading time for posts.
@@ -38,7 +38,7 @@ paginate = 10
     # Changes sidebar background and link/accent colours.
     # See below for more colour options.
     # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-    theme = "theme-base-08"
+    theme = "theme-base-0d"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
@@ -49,7 +49,7 @@ paginate = 10
 
     # Displays under the author name in the sidebar, keep it short.
     # You can use markdown here.
-    tagline = "Your favourite quote or soundbite."
+    tagline = "Those who do not understand UNIX are condemned to reinvent it, poorly."
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Blog".
@@ -60,13 +60,13 @@ paginate = 10
     gravatarHash = "MD5 hash of your Gravatar email address"
 
     # Sidebar social links, these must be full URLs.
-    github = ""
+    github = "https://github.com/lpmulligan"
     bitbucket = ""
     stackOverflow = ""
     linkedin = ""
     googleplus = ""
     facebook = ""
-    twitter = ""
+    twitter = "https://twitter.com/lpmulligan"
     youtube = ""
 
     # Other social-like sidebar links
