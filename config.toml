@@ -8,7 +8,6 @@ googleAnalytics = "UA-68954351-1"
 
 theme = "hugo-minimalist-theme"
 
-
 [params]
     site_author = "Lawrence Mulligan"
     site_description = "Microsoft Azure, Kubernetes, DevOps, and other cool stuff"
