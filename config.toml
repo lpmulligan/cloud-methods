@@ -2,7 +2,7 @@ baseurl = "https://www.cloud-methods.com/"
 languageCode = "en-us"
 paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
-disqusShortname = "lpmulligan2"
+disqusShortname = "cloud-methods"
 # Enable gogle analytics by entering your tracking code
 googleAnalytics = "UA-68954351-1"
 
