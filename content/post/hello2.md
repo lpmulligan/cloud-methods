@@ -1,6 +1,5 @@
 ---
 title: "Hello2"
 date: 2018-02-17T08:28:07-06:00
-draft: true
 ---
 
